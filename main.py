@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-model = joblib.load('/Users/osamaamer/Desktop/Streamlit_ModelDep/trainedLF2')
+model = joblib.load('trainedLF2')
 
 # Streamlit webpage
 def main():
